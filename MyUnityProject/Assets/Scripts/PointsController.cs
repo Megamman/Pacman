@@ -22,7 +22,8 @@ public class PointsController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void AddScore (int scoreVal) {
+		scoreValue += scoreVal;
 
 		// How the text will show as score
 		score.text = "Score: " + scoreValue;
