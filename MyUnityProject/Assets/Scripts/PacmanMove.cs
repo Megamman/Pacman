@@ -18,13 +18,13 @@ public class PacmanMove : MonoBehaviour {
 
 		// Check for Input if not moving
 		if ((Vector2)transform.position == dest) {
-			if (Input.GetKey(KeyCode.UpArrow) && valid(Vector2.up))
+			if (Input.GetKey(KeyCode.W) && valid(Vector2.up))
 				dest = (Vector2)transform.position + Vector2.up;
-			if (Input.GetKey(KeyCode.RightArrow) && valid(Vector2.right))
+			if (Input.GetKey(KeyCode.D) && valid(Vector2.right))
 				dest = (Vector2)transform.position + Vector2.right;
-			if (Input.GetKey(KeyCode.DownArrow) && valid(-Vector2.up))
+			if (Input.GetKey(KeyCode.S) && valid(-Vector2.up))
 				dest = (Vector2)transform.position - Vector2.up;
-			if (Input.GetKey(KeyCode.LeftArrow) && valid(-Vector2.right))
+			if (Input.GetKey(KeyCode.A) && valid(-Vector2.right))
 				dest = (Vector2)transform.position - Vector2.right;
 		}
 

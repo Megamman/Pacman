@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PacmanMove.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GostMove.cs" Line="30" Column="27" />
+      <File FileName="..\..\Scripts\CollectController.cs" Line="20" Column="7" />
+      <File FileName="Assets\Scripts\PointsController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pacdot.cs" Line="8" Column="14" />
+      <File FileName="Assets\Scripts\PacmanMove.cs" Line="23" Column="30" />
+      <File FileName="..\..\Scripts\MoveController.cs" Line="4" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\MRO11\Dropbox\School\Unity\Pacman\MyUnityProject\Assets\Scripts\PointsController.cs" line="18" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
