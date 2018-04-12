@@ -293,6 +293,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bigdot.cs" />
     <Compile Include="Assets\Scripts\Charry.cs" />
+    <Compile Include="Assets\Scripts\EndGame.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GhostIntro.cs" />
     <Compile Include="Assets\Scripts\GhostMovement.cs" />

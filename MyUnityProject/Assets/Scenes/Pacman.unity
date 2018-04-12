@@ -9962,6 +9962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 411835681}
   - component: {fileID: 411835682}
+  - component: {fileID: 411835683}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -10003,6 +10004,20 @@ MonoBehaviour:
   Game: {fileID: 411835680}
   Mainmenu: {fileID: 1893754110}
   Pausemenu: {fileID: 711863683}
+--- !u!114 &411835683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411835680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cd2c6828d325d4cb21663a4922f088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinText: {fileID: 0}
+  Pacdots: {fileID: 1956759783}
+  Bigdots: {fileID: 591457694}
 --- !u!1 &420033948
 GameObject:
   m_ObjectHideFlags: 0
@@ -34510,7 +34525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300b17816a4e99449934e85550dde169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinText: {fileID: 0}
 --- !u!1 &1727588245
 GameObject:
   m_ObjectHideFlags: 0
