@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bigdot.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GhostIntro.cs" />
      <Compile Include="Assets\Scripts\GhostMovement.cs" />
+     <Compile Include="Assets\Scripts\GoBack.cs" />
      <Compile Include="Assets\Scripts\GostMove.cs" />
      <Compile Include="Assets\Scripts\Pacdot.cs" />
      <Compile Include="Assets\Scripts\PacmanMove.cs" />

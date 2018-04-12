@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GhostMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Bigdot.cs">
     <Files>
-      <File FileName="Assets\Scripts\GhostMovement.cs" Line="15" Column="37" />
-      <File FileName="Assets\Scripts\PacmanMove.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\Scripts\GostMove.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\Scripts\GhostIntro.cs" Line="35" Column="6" NotebookId="1" />
+      <File FileName="Assets\Scripts\QuitGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bigdot.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

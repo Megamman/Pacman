@@ -138,3 +138,4 @@ C:\Users\MRO11\Dropbox\School\Unity\Pacman\MyUnityProject\Temp\bin\Debug\UnityEd
 C:\Users\MRO11\Dropbox\School\Unity\Pacman\MyUnityProject\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\MRO11\Dropbox\School\Unity\Pacman\MyUnityProject\obj\Debug\Assembly-CSharp.dll
 C:\Users\MRO11\Dropbox\School\Unity\Pacman\MyUnityProject\obj\Debug\Assembly-CSharp.pdb
+C:\Users\MRO11\Dropbox\School\Unity\Pacman\MyUnityProject\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

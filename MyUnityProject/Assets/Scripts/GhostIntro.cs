@@ -5,6 +5,7 @@ using UnityEngine;
 public class GhostIntro : MonoBehaviour {
 	public Transform[] introWaypoints;
 	public Transform[] startWaypoints;
+	Vector2 dest = Vector2.zero;
 	int cur = 0;
 	int phase = 0;
 
@@ -36,6 +37,11 @@ public class GhostIntro : MonoBehaviour {
 			} else {
 				transform.position = Vector2.MoveTowards (transform.position, startWaypoints [cur].position, speed);
 			}
+
+			// Animation Parameters
+			Vector2 dir = dest - (Vector2)transform.position;
+			GetComponent<Animator>().SetFloat("DirX", dir.x);
+			GetComponent<Animator>().SetFloat("DirY", dir.y);
 		}
 	}
 

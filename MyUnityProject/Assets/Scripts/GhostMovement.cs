@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class GhostMovement : MonoBehaviour {
 
@@ -11,8 +10,6 @@ public class GhostMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		dest = transform.position;
-		Vector3 randomDirection = new Vector3(Random.value, Random.value, Random.value);
-		transform.Rotate(randomDirection);
 	}
 
 	// Update is called once per frame
@@ -33,6 +30,8 @@ public class GhostMovement : MonoBehaviour {
 		Vector2 pos = transform.position;
 		RaycastHit2D hit = Physics2D.Linecast(pos, pos + dir);
 		return (hit.collider == GetComponent<Collider2D>());
+		Vector2 randomDirection = new Vector2(Random.value, Random.value);
+		transform.Rotate(randomDirection);
 	}
 
 
