@@ -300,6 +300,7 @@
     <Compile Include="Assets\Scripts\GostMove.cs" />
     <Compile Include="Assets\Scripts\Pacdot.cs" />
     <Compile Include="Assets\Scripts\PacmanMove.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PointsController.cs" />
     <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
