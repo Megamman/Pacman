@@ -34,6 +34,7 @@ public class GhostIntro : MonoBehaviour {
 				cur++;
 				if (cur == 2) {
 					this.enabled = false;
+					GetComponent<GhostMovement> ().enabled = true;
 				}
 			} else {
 				transform.position = Vector2.MoveTowards (transform.position, startWaypoints [cur].position, speed);

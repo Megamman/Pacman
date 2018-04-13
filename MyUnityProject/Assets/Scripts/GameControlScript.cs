@@ -2,7 +2,7 @@
 
 public class GameControlScript : MonoBehaviour {
 
-    public GameObject live1, live2, live3, gameOver;
+    public GameObject live1, live2, live3, gameOver, pacman;
     public static int lives;
 
 	// Use this for initialization
@@ -41,6 +41,7 @@ public class GameControlScript : MonoBehaviour {
                 live2.gameObject.SetActive(false);
                 live3.gameObject.SetActive(false);
                 gameOver.gameObject.SetActive(true);
+				Destroy(pacman);
                 Time.timeScale = 0;
                 break;
         }

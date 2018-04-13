@@ -9,7 +9,11 @@ public class PauseMenu : MonoBehaviour {
     public GameObject Mainmenu;
     public GameObject Pausemenu;
 
-
+	void OnEnable()
+	{
+		Time.timeScale = 1f;
+		Debug.Log ("enabled");
+	}
 
     // Update is called once per frame
     void Update()

@@ -14,7 +14,6 @@ public class PacmanMove : MonoBehaviour {
 	{
 		if (Input.GetKey (KeyCode.A)) {
 			SetDirection (Vector2.left);
-
 		}
 
 		if (Input.GetKey (KeyCode.D)) {

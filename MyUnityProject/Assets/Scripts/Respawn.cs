@@ -12,7 +12,7 @@ public class Respawn : MonoBehaviour {
         if (co.name == "pacman")
         {
             GameControlScript.lives -= 1;
-            respawn.transform.position = player.transform.position;
+			player.position = respawn.position;
             FindObjectOfType<PointsController>().AddScore(-50);
         }
 
