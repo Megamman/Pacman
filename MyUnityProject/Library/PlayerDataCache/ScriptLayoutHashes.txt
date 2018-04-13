@@ -3,7 +3,9 @@ SceneListBegin?
 Assets/Scenes/Pacman.unity
 SceneListEnd?
 6c28ed52f8fdf7579e65ca3c361c0a19 Assembly-CSharp.dll:.SpawnCharry
+3399e5b07f6b1173fa36c54071adc2a3 Assembly-CSharp.dll:.InkyIntro
 0355c65c8c81c365071d2e3280e708c7 Assembly-CSharp.dll:.GameManager
+3399e5b07f6b1173fa36c54071adc2a3 Assembly-CSharp.dll:.BlinkyIntro
 f78b4b4dc47318fd8eb83f0a68beb06d Assembly-CSharp.dll:.PauseMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Pacdot
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.GhostMovement
@@ -15,16 +17,16 @@ feb78ac100610e9e201ef13099c03585 Assembly-CSharp.dll:.Respawn
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PointsController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
-f5293d7135040f6cda9c348f554acc1e Assembly-CSharp.dll:.EndGame
+15ca8dc0fadd5f7476a07137df6d9e13 Assembly-CSharp.dll:.EndGame
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 d9d0fc04845c109c246a0b5488b17f6c Assembly-CSharp.dll:.GoBack
 7306bb896b3e346073000f248ac214db Assembly-CSharp.dll:.Spawn
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HighScore
 77f44a794e8d427ae3d10d90536f0b01 Assembly-CSharp.dll:.GostMove
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitGame
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RestartGame
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bigdot
 1e49ba2c98554f1714b6d66e353009c2 Assembly-CSharp.dll:.GameControlScript
-3399e5b07f6b1173fa36c54071adc2a3 Assembly-CSharp.dll:.GhostIntro
+3399e5b07f6b1173fa36c54071adc2a3 Assembly-CSharp.dll:.ClydeIntro
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
@@ -158,4 +160,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RestartGame

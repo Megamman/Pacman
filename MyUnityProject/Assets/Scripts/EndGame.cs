@@ -4,23 +4,14 @@ using UnityEngine;
 
 public class EndGame : MonoBehaviour {
 
-    public GameObject WinText;
-    public GameObject Pacdots;
-    public GameObject Bigdots;
 
-    public void Win()
+    public GameObject Win;
+
+    void Update()
     {
-
-        if (Pacdots && Bigdots == null)
+        if (GameObject.FindGameObjectsWithTag("Dot") == null)
         {
-
-            // Display win Message
-            WinText.SetActive(true);
-
-            // Slow down time
-            Time.timeScale = 0;
-
+            Win.gameObject.SetActive(true);
         }
-
     }
 }

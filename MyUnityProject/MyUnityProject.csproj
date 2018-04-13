@@ -301,7 +301,6 @@
     <Compile Include="Assets\Scripts\GhostMovement.cs" />
     <Compile Include="Assets\Scripts\GoBack.cs" />
     <Compile Include="Assets\Scripts\GostMove.cs" />
-    <Compile Include="Assets\Scripts\HighScore.cs" />
     <Compile Include="Assets\Scripts\InkyIntro.cs" />
     <Compile Include="Assets\Scripts\Pacdot.cs" />
     <Compile Include="Assets\Scripts\PacmanMove.cs" />
