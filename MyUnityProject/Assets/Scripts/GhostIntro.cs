@@ -5,6 +5,7 @@ using UnityEngine;
 public class GhostIntro : MonoBehaviour {
 	public Transform[] introWaypoints;
 	public Transform[] startWaypoints;
+
 	Vector2 dest = Vector2.zero;
 	int cur = 0;
 	int phase = 0;

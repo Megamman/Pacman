@@ -294,6 +294,7 @@
     <Compile Include="Assets\Scripts\Bigdot.cs" />
     <Compile Include="Assets\Scripts\Charry.cs" />
     <Compile Include="Assets\Scripts\EndGame.cs" />
+    <Compile Include="Assets\Scripts\GameControlScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GhostIntro.cs" />
     <Compile Include="Assets\Scripts\GhostMovement.cs" />
@@ -304,6 +305,7 @@
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PointsController.cs" />
     <Compile Include="Assets\Scripts\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\SpawnCharry.cs" />
   </ItemGroup>

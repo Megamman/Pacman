@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-	// allows an instanse to call from the GameManager al of its functions
-	public static GameManager instance = null;
+    public GameObject win;
+
+    // allows an instanse to call from the GameManager al of its functions
+    public static GameManager instance = null;
 
     // Use this for initialization
     void Awake () {
@@ -15,6 +17,15 @@ public class GameManager : MonoBehaviour {
 			instance = this;
 		else if (instance != null)
 			Destroy (gameObject);
-	}
-
+    }
+    /*
+    void WinText()
+    {
+        co.tag == "Dot";
+        if (Dot == 0)
+        {
+            gameObject.SetActive(true);
+        }
+    }
+    */
 }

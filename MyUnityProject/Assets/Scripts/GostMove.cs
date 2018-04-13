@@ -24,9 +24,15 @@ public class GostMove : MonoBehaviour {
 		GetComponent<Animator>().SetFloat("DirX", dir.x);
 		GetComponent<Animator>().SetFloat("DirY", dir.y);
 	}
-
+    /*
 	void OnTriggerEnter2D(Collider2D co) {
 		if (co.name == "pacman")
-			Destroy(co.gameObject);
+        {
+            GameControlScript.lives -= 1;
+
+            Destroy(co.gameObject);
+        }
+			
 	}
+    */
 }
