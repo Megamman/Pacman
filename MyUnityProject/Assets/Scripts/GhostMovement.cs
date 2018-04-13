@@ -47,18 +47,18 @@ public class GhostMovement : MonoBehaviour {
 		// where the linecast ends, it's the wall, dest = wall
 
 		Vector2 pos = transform.position;
-		RaycastHit2D hit = Physics2D.Linecast(pos, pos + (dir * 100f), 1 << LayerMask.NameToLayer("Maze"));
+		RaycastHit2D hit = Physics2D.Linecast(pos, pos + (dir * 100f), 1 << LayerMask.NameToLayer("Walls"));
 		if (hit) {
 			dest = hit.point - (dir * 0.52f);
 			direction = dir;
 		}
-			
-		/*
+
+        /*
 		Vector2 randomDirection = new Vector2(Random.value, Random.value);
 		transform.Rotate(randomDirection);
 		return (hit.collider == GetComponent<Collider2D>());
 		*/
-	}
+    }
 
 
 }

@@ -292,21 +292,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bigdot.cs" />
+    <Compile Include="Assets\Scripts\BlinkyIntro.cs" />
     <Compile Include="Assets\Scripts\Charry.cs" />
+    <Compile Include="Assets\Scripts\ClydeIntro.cs" />
     <Compile Include="Assets\Scripts\EndGame.cs" />
     <Compile Include="Assets\Scripts\GameControlScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GhostIntro.cs" />
     <Compile Include="Assets\Scripts\GhostMovement.cs" />
     <Compile Include="Assets\Scripts\GoBack.cs" />
     <Compile Include="Assets\Scripts\GostMove.cs" />
     <Compile Include="Assets\Scripts\HighScore.cs" />
+    <Compile Include="Assets\Scripts\InkyIntro.cs" />
     <Compile Include="Assets\Scripts\Pacdot.cs" />
     <Compile Include="Assets\Scripts\PacmanMove.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PointsController.cs" />
     <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
+    <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\SpawnCharry.cs" />
   </ItemGroup>

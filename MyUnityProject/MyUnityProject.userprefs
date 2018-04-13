@@ -1,16 +1,16 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GhostMovement.cs">
+﻿<Properties StartupItem="MyUnityProject.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GhostIntro.cs">
     <Files>
       <File FileName="Assets\Scripts\RestartGame.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GhostIntro.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GameControlScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Respawn.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PauseMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PacmanMove.cs" Line="23" Column="7" />
+      <File FileName="Assets\Scripts\PacmanMove.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GhostMovement.cs" Line="52" Column="33" NotebookId="1" />
       <File FileName="Assets\Scripts\Charry.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\Scripts\SpawnCharry.cs" Line="44" Column="18" NotebookId="1" />
+      <File FileName="Assets\Scripts\SpawnCharry.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
